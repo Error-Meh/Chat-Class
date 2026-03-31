@@ -1,0 +1,206 @@
+# -*- coding: utf-8 -*-
+
+################################################################################
+## Form generated from reading UI file 'OpcionesDelProfePOnCsj.ui'
+##
+## Created by: Qt User Interface Compiler version 6.7.0
+##
+## WARNING! All changes made in this file will be lost when recompiling UI file!
+################################################################################
+
+from PySide6.QtCore import (QCoreApplication, QDate, QDateTime, QLocale,
+    QMetaObject, QObject, QPoint, QRect,
+    QSize, QTime, QUrl, Qt)
+from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
+    QFont, QFontDatabase, QGradient, QIcon,
+    QImage, QKeySequence, QLinearGradient, QPainter,
+    QPalette, QPixmap, QRadialGradient, QTransform)
+from PySide6.QtWidgets import (QApplication, QComboBox, QDialog, QLabel,
+    QLineEdit, QPushButton, QRadioButton, QScrollArea,
+    QSizePolicy, QStackedWidget, QWidget)
+
+class Ui_OpcionesPrf(object):
+    def setupUi(self, OpcionesPrf):
+        if not OpcionesPrf.objectName():
+            OpcionesPrf.setObjectName(u"OpcionesPrf")
+        OpcionesPrf.resize(300, 360)
+        OpcionesPrf.setStyleSheet(u"background-color: rgb(18, 18, 18);")
+        self.stackedWidget = QStackedWidget(OpcionesPrf)
+        self.stackedWidget.setObjectName(u"stackedWidget")
+        self.stackedWidget.setGeometry(QRect(0, 0, 600, 480))
+        self.Pag0 = QWidget()
+        self.Pag0.setObjectName(u"Pag0")
+        self.Lb_Preg = QLabel(self.Pag0)
+        self.Lb_Preg.setObjectName(u"Lb_Preg")
+        self.Lb_Preg.setGeometry(QRect(35, 20, 240, 40))
+        font = QFont()
+        font.setFamilies([u"Bahnschrift"])
+        font.setPointSize(20)
+        self.Lb_Preg.setFont(font)
+        self.Lb_Preg.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        self.Bt_crear = QPushButton(self.Pag0)
+        self.Bt_crear.setObjectName(u"Bt_crear")
+        self.Bt_crear.setGeometry(QRect(80, 110, 141, 51))
+        font1 = QFont()
+        font1.setFamilies([u"Bahnschrift"])
+        font1.setPointSize(14)
+        self.Bt_crear.setFont(font1)
+        self.Bt_crear.setStyleSheet(u"background-color: rgb(158, 158, 158);\n"
+"color: rgb(0, 0, 0);")
+        self.Bt_borrar = QPushButton(self.Pag0)
+        self.Bt_borrar.setObjectName(u"Bt_borrar")
+        self.Bt_borrar.setGeometry(QRect(80, 220, 141, 51))
+        self.Bt_borrar.setFont(font1)
+        self.Bt_borrar.setStyleSheet(u"background-color: rgb(158, 158, 158);\n"
+"color: rgb(0, 0, 0);")
+        self.stackedWidget.addWidget(self.Pag0)
+        self.Pag1 = QWidget()
+        self.Pag1.setObjectName(u"Pag1")
+        self.Lb_NombMat = QLabel(self.Pag1)
+        self.Lb_NombMat.setObjectName(u"Lb_NombMat")
+        self.Lb_NombMat.setGeometry(QRect(30, 10, 311, 51))
+        font2 = QFont()
+        font2.setFamilies([u"Bahnschrift"])
+        font2.setPointSize(16)
+        self.Lb_NombMat.setFont(font2)
+        self.LE_Nombregrup = QLineEdit(self.Pag1)
+        self.LE_Nombregrup.setObjectName(u"LE_Nombregrup")
+        self.LE_Nombregrup.setGeometry(QRect(30, 80, 441, 41))
+        self.LE_Nombregrup.setFont(font1)
+        self.LE_Nombregrup.setStyleSheet(u"background-color: rgb(255, 255, 255);\n"
+"color: rgb(0, 0, 0);")
+        self.Bt_CrearGrupo = QPushButton(self.Pag1)
+        self.Bt_CrearGrupo.setObjectName(u"Bt_CrearGrupo")
+        self.Bt_CrearGrupo.setGeometry(QRect(420, 280, 141, 51))
+        self.Bt_CrearGrupo.setFont(font2)
+        self.Bt_CrearGrupo.setStyleSheet(u"background-color: rgb(158, 158, 158);\n"
+"color: rgb(0, 0, 0);")
+        self.Lb_GradGrup = QLabel(self.Pag1)
+        self.Lb_GradGrup.setObjectName(u"Lb_GradGrup")
+        self.Lb_GradGrup.setGeometry(QRect(30, 140, 151, 51))
+        self.Lb_GradGrup.setFont(font2)
+        self.Rb_GB = QRadioButton(self.Pag1)
+        self.Rb_GB.setObjectName(u"Rb_GB")
+        self.Rb_GB.setGeometry(QRect(180, 200, 41, 20))
+        font3 = QFont()
+        font3.setPointSize(12)
+        self.Rb_GB.setFont(font3)
+        self.Rb_GA = QRadioButton(self.Pag1)
+        self.Rb_GA.setObjectName(u"Rb_GA")
+        self.Rb_GA.setGeometry(QRect(130, 200, 41, 20))
+        self.Rb_GA.setFont(font3)
+        self.Cb_Grado = QComboBox(self.Pag1)
+        self.Cb_Grado.addItem("")
+        self.Cb_Grado.addItem("")
+        self.Cb_Grado.addItem("")
+        self.Cb_Grado.addItem("")
+        self.Cb_Grado.addItem("")
+        self.Cb_Grado.addItem("")
+        self.Cb_Grado.addItem("")
+        self.Cb_Grado.addItem("")
+        self.Cb_Grado.addItem("")
+        self.Cb_Grado.setObjectName(u"Cb_Grado")
+        self.Cb_Grado.setGeometry(QRect(30, 190, 71, 31))
+        font4 = QFont()
+        font4.setFamilies([u"Bahnschrift"])
+        font4.setPointSize(12)
+        self.Cb_Grado.setFont(font4)
+        self.Cb_Grado.setStyleSheet(u"background-color: rgb(255, 255, 255);\n"
+"color: rgb(0, 0, 0);")
+        self.Cb_Turno = QComboBox(self.Pag1)
+        self.Cb_Turno.addItem("")
+        self.Cb_Turno.addItem("")
+        self.Cb_Turno.addItem("")
+        self.Cb_Turno.setObjectName(u"Cb_Turno")
+        self.Cb_Turno.setGeometry(QRect(30, 290, 171, 41))
+        self.Cb_Turno.setStyleSheet(u"background-color: rgb(255, 255, 255);\n"
+"color: rgb(0, 0, 0);")
+        self.Lb_Turno = QLabel(self.Pag1)
+        self.Lb_Turno.setObjectName(u"Lb_Turno")
+        self.Lb_Turno.setGeometry(QRect(30, 240, 71, 51))
+        font5 = QFont()
+        font5.setFamilies([u"Bahnschrift"])
+        font5.setPointSize(18)
+        self.Lb_Turno.setFont(font5)
+        self.Lb_Error = QLabel(self.Pag1)
+        self.Lb_Error.setObjectName(u"Lb_Error")
+        self.Lb_Error.setGeometry(QRect(250, 170, 341, 41))
+        font6 = QFont()
+        font6.setFamilies([u"Terminal"])
+        font6.setPointSize(11)
+        font6.setBold(True)
+        self.Lb_Error.setFont(font6)
+        self.Lb_Error.setStyleSheet(u"color: rgb(249, 44, 47);")
+        self.stackedWidget.addWidget(self.Pag1)
+        self.Pag2 = QWidget()
+        self.Pag2.setObjectName(u"Pag2")
+        self.scrollArea = QScrollArea(self.Pag2)
+        self.scrollArea.setObjectName(u"scrollArea")
+        self.scrollArea.setGeometry(QRect(30, 90, 421, 251))
+        self.scrollArea.setWidgetResizable(True)
+        self.scrollAreaWidgetContents = QWidget()
+        self.scrollAreaWidgetContents.setObjectName(u"scrollAreaWidgetContents")
+        self.scrollAreaWidgetContents.setGeometry(QRect(0, 0, 419, 249))
+        self.scrollArea.setWidget(self.scrollAreaWidgetContents)
+        self.Lb_Selec = QLabel(self.Pag2)
+        self.Lb_Selec.setObjectName(u"Lb_Selec")
+        self.Lb_Selec.setGeometry(QRect(60, 20, 361, 51))
+        self.Lb_Selec.setFont(font2)
+        self.Lb_Selec.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        self.Bt_BorrarGrupo = QPushButton(self.Pag2)
+        self.Bt_BorrarGrupo.setObjectName(u"Bt_BorrarGrupo")
+        self.Bt_BorrarGrupo.setGeometry(QRect(150, 420, 171, 51))
+        self.Bt_BorrarGrupo.setFont(font4)
+        self.Bt_BorrarGrupo.setStyleSheet(u"background-color: rgb(158, 158, 158);\n"
+"color: rgb(0, 0, 0);")
+        self.LB_errorBR = QLabel(self.Pag2)
+        self.LB_errorBR.setObjectName(u"LB_errorBR")
+        self.LB_errorBR.setGeometry(QRect(20, 370, 451, 41))
+        font7 = QFont()
+        font7.setFamilies([u"Terminal"])
+        font7.setPointSize(11)
+        self.LB_errorBR.setFont(font7)
+        self.LB_errorBR.setStyleSheet(u"color: rgb(255, 37, 41);\n"
+"background: None;")
+        self.stackedWidget.addWidget(self.Pag2)
+
+        self.retranslateUi(OpcionesPrf)
+
+        self.stackedWidget.setCurrentIndex(0)
+
+
+        QMetaObject.connectSlotsByName(OpcionesPrf)
+    # setupUi
+
+    def retranslateUi(self, OpcionesPrf):
+        OpcionesPrf.setWindowTitle(QCoreApplication.translate("OpcionesPrf", u"Dialog", None))
+        self.Lb_Preg.setText(QCoreApplication.translate("OpcionesPrf", u"\u00bfQue desea hacer?", None))
+        self.Bt_crear.setText(QCoreApplication.translate("OpcionesPrf", u"Crear grupo", None))
+        self.Bt_borrar.setText(QCoreApplication.translate("OpcionesPrf", u"Borrar grupo", None))
+        self.Lb_NombMat.setText(QCoreApplication.translate("OpcionesPrf", u"Nombre del grupo\n"
+"(preferentemente de la materia)", None))
+        self.LE_Nombregrup.setText("")
+        self.Bt_CrearGrupo.setText(QCoreApplication.translate("OpcionesPrf", u"Crear Grupo", None))
+        self.Lb_GradGrup.setText(QCoreApplication.translate("OpcionesPrf", u"Grado y Grupo", None))
+        self.Rb_GB.setText(QCoreApplication.translate("OpcionesPrf", u"B", None))
+        self.Rb_GA.setText(QCoreApplication.translate("OpcionesPrf", u"A", None))
+        self.Cb_Grado.setItemText(0, QCoreApplication.translate("OpcionesPrf", u"Grado", None))
+        self.Cb_Grado.setItemText(1, QCoreApplication.translate("OpcionesPrf", u"1", None))
+        self.Cb_Grado.setItemText(2, QCoreApplication.translate("OpcionesPrf", u"2", None))
+        self.Cb_Grado.setItemText(3, QCoreApplication.translate("OpcionesPrf", u"3", None))
+        self.Cb_Grado.setItemText(4, QCoreApplication.translate("OpcionesPrf", u"4", None))
+        self.Cb_Grado.setItemText(5, QCoreApplication.translate("OpcionesPrf", u"5", None))
+        self.Cb_Grado.setItemText(6, QCoreApplication.translate("OpcionesPrf", u"6", None))
+        self.Cb_Grado.setItemText(7, QCoreApplication.translate("OpcionesPrf", u"7", None))
+        self.Cb_Grado.setItemText(8, QCoreApplication.translate("OpcionesPrf", u"8", None))
+
+        self.Cb_Turno.setItemText(0, "")
+        self.Cb_Turno.setItemText(1, QCoreApplication.translate("OpcionesPrf", u"Vespertino", None))
+        self.Cb_Turno.setItemText(2, QCoreApplication.translate("OpcionesPrf", u"Matutino", None))
+
+        self.Lb_Turno.setText(QCoreApplication.translate("OpcionesPrf", u"Turno", None))
+        self.Lb_Error.setText("")
+        self.Lb_Selec.setText(QCoreApplication.translate("OpcionesPrf", u"Seleccione el grupo que desea borrar", None))
+        self.Bt_BorrarGrupo.setText(QCoreApplication.translate("OpcionesPrf", u"Borrar Grupo", None))
+        self.LB_errorBR.setText("")
+    # retranslateUi
