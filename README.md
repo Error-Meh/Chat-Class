@@ -151,3 +151,43 @@ An AWS implementation was attempted but later removed due to lack of optimizatio
 * Scalability
 
 ---
+
+## Feedback
+
+This project was made as a school project and learning experience.
+I would really appreciate feedback, code review, and suggestions to improve the architecture, UI, and message handling.
+
+Feel free to open an Issue or a Pull Request.
+
+## 📸 Screenshots
+
+### Inicio
+<p align="center">
+  <img src="screenshots/inicio.jpeg" width="500"/>
+</p>
+
+### Login
+<p align="center">
+  <img src="screenshots/login.jpeg" width="500"/>
+</p>
+
+### Ventana Principal
+<p align="center">
+  <img src="screenshots/principal.jpeg" width="500"/>
+</p>
+
+### Registro
+<p align="center">
+  <img src="screenshots/registro.jpeg" width="500"/>
+</p>
+
+### Registro Parte 2
+<p align="center">
+  <img src="screenshots/registro2.jpeg" width="500"/>
+</p>
+
+### Chat
+<p align="center">
+  <img src="screenshots/chat.jpeg" width="500"/>
+</p>
+
