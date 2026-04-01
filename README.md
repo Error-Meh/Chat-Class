@@ -61,7 +61,7 @@ Se llego a implementar AWS, pero se elimino por faltas de optimizacion.
 1. Clonar repositorio
 2. Instalar dependencias
 3. Configurar base de datos local
-4. Ejecutar archivo principal
+4. Ejecutar archivo principal (InicarSesion_y_Registro.py)
 
 ---
 
@@ -137,7 +137,7 @@ An AWS implementation was attempted but later removed due to lack of optimizatio
 1. Clone the repository
 2. Install dependencies
 3. Set up a local database
-4. Run the main file
+4. Run the main file (InicarSesion_y_Registro.py)
 
 ---
 
@@ -159,7 +159,7 @@ I would really appreciate feedback, code review, and suggestions to improve the 
 
 Feel free to open an Issue or a Pull Request.
 
-## 📸 Screenshots
+## Screenshots
 
 ### Inicio
 <p align="center">
